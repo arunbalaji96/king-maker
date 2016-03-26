@@ -41,7 +41,7 @@ public static void main(String args[]) throws IOException
 	 }
 
 	 
-	  for( i=1;i<num;i++ )
+	  for( i=1;i<=num;i++ )
 	 { 
  
      if(east[i]!=0)
@@ -60,7 +60,7 @@ public static void main(String args[]) throws IOException
      room[i].S=room[  south[i] ];
 	 else
 	 room[i].S=null;
- 
+System.out.println(room[i].roomno+"--"+east[i]+"--"+west[i]+"--"+north[i]+"--"+south[i]);
 	 } 
 	 
 	 int[] temp1; 
